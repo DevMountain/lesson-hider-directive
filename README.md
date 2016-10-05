@@ -54,7 +54,7 @@ in your DOM. There are three options: `'E'`, `'A'`, and `'C'`. These stand for E
 A directive that has `restrict: 'E'` (note that 'E' is a string) can only be used in your html as an element, like we have above.
 
 Think through Angular's built in directives such as ng-repeat or ng-options. These are used with the `'A'` restriction because they are passed as attributes to
-existing elements. Directives as classes (and especialaly as comments) are less common, and should usually be avoided. For now, let us just restrict our
+existing elements. Directives as classes (and especially as comments) are less common, and should usually be avoided. For now, let us just restrict our
 lessonHider directive to only be an Element.
 
 ## Step 3: Adding functionality
@@ -246,7 +246,7 @@ used when you need to manipulate the DOM, and it will feel a lot like jQuery (be
 we're going back to some basics.
 
 First of all we will need to loop through our schedule array and check whether `scope.lesson` matches a lesson that is already scheduled. If we find the value
-then we need to do some basic jQuery to strike throuh that list item. It's also a good idea to tell your function to also `return;` if it finds the value,
+then we need to do some basic jQuery to strike through that list item. It's also a good idea to tell your function to also `return;` if it finds the value,
 preventing your loop from continuing to run after you've found the lesson.
 
 Our directive now has functionality and is an example of a real world use case! But there's still more we can do!
@@ -337,4 +337,3 @@ prohibited. Excerpts and links may be used, provided that full and clear credit 
 content.
 
 <img src="https://devmounta.in/img/logowhiteblue.png" width="250">
-
